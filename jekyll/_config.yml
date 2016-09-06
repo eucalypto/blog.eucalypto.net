@@ -18,5 +18,10 @@ github_username:  eucalypto
 gems:
   - jekyll-asciidoc
 
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Makefile'
+
 # Build settings
 # markdown: kramdown

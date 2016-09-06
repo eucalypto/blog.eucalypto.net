@@ -1,11 +1,11 @@
 # This is the Makefile for the blog.
 
-CLEANDATEIEN = .jekyll-metadata _site .sass-cache
+CLEANDATEIEN = .jekyll-metadata _site/* .sass-cache
 
 .PHONY: geminstall all serve clean
 
-all:
-	bunde exec jekyll build
+all: clean
+	bundle exec jekyll build
 
 geminstall:
 		bundle install --path .bundle
