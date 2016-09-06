@@ -4,13 +4,13 @@ CLEANDATEIEN = .jekyll-metadata _site .sass-cache
 
 .PHONY: geminstall all serve clean
 
-geminstall:
-	bundle install --path .bundle
-
 all:
 	bunde exec jekyll build
 
-serve:
+geminstall:
+		bundle install --path .bundle
+
+serve: clean
 	bundle exec jekyll serve --incremental
 
 clean:
