@@ -25,8 +25,12 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
+// Width, below which, smartphone-mode of the site is activated
 $on-palm:          600px;
-$on-laptop:        800px;
+
+// Width, below which, a laptop-mode is activated. Above this width, the
+// "normal?"-mode is activated.
+$on-laptop:        1024px;
 
 
 
@@ -49,5 +53,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "asciidoctor-default"
 ;
