@@ -1,1 +1,0 @@
-../../linux/bash/2016-03-11-bashrc-aliases.markdown
