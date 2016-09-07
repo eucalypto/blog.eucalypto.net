@@ -13,3 +13,8 @@ layout: default
   </div>
 
 </article>
+
+<hr>
+{% if site.disqus-activate %}
+  {% include disqus_comments.html %}
+{% endif %}

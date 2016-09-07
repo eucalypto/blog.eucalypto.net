@@ -23,5 +23,12 @@ exclude:
   - 'Gemfile.lock'
   - 'Makefile'
 
+# This switch activates or deactivates disqus comments on the whole
+# site. Values: true, false.
+# To actually display comments in a post, you need to write a site
+# variable in the preamble of your post: 'comments: true'
+disqus-activate: true
+
+
 # Build settings
 # markdown: kramdown
