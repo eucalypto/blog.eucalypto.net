@@ -1,0 +1,74 @@
+---
+layout: post
+title: PDF-Tools
+date: '2013-04-14T19:14:32+0100'
+author: eucalypto
+tags:
+- pdf
+---
+
+PDFs are a fine thing. But sometimes we want to edit them. Mostly for
+printing.
+
+== PDFjam
+
+This command-line tool named  http://wiki.ubuntuusers.de/PDFjam[pdfjam]
+uses latex to edit PDFs. It should be available in the repositories of
+most Linux distros. There are also
+http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/[useful
+examples].
+
+*You can offset* pages of a (twosided) document in order to make room
+*for a binding, etc.:
+
+[source]
+----
+pdfjam --twoside myfile.pdf --offset '1cm 0cm' --suffix 'offset'
+----
+
+This doesn't scale, it just shifts the content.
+
+*You can even* use pdfjam to produce PDFs with two pages per page:
+[source]
+----
+pdfjam myfile.pdf --trim '1cm 2cm 1cm 2cm' --clip true --outfile /dev/stdout | \
+pdfjam --nup 2x1 --landscape --frame true --outfile myoutput.pdf
+----
+
+This cuts the four sides of the document and puts two sides on one.
+
+== Getting rid of Margins
+
+If you want to print large documents two-sided, large margins will
+produce small text.
+
+=== pdfcrop
+
+On Linux (Ubuntu) there is a nice command line tool called
+http://manpages.ubuntu.com/manpages/gutsy/man1/pdfcrop.1.html[pdfcrop].
+Several examples are given
+http://askubuntu.com/questions/124692/command-line-tool-to-crop-pdf-files[here].
+
+It removes all white margins of pdfs:
+
+[source]
+----
+pdfcrop --margins '5 10 20 30' input.pdf output.pdf
+----
+
+Without the `--margins` flag, pdfcrop would produce zero margins, which
+might look awkward.
+
+=== pdfscissors
+
+There is also a nice Java tool with a GUI:
+https://sites.google.com/site/pdfscissors/[pdfscissors]. It shows you
+all pages of a document half-transparent stacked so that you can select
+what to cut on all pages simultaneously.
+
+
+
+== PDFtk
+
+There is also the capable command-line tool called
+https://wiki.ubuntuusers.de/pdftk[pdftk].
