@@ -10,7 +10,7 @@ tags:
 PDFs are a fine thing. But sometimes we want to edit them. Mostly for
 printing.
 
-== PDFjam
+== Pdfjam
 
 This command-line tool named  http://wiki.ubuntuusers.de/PDFjam[pdfjam]
 uses latex to edit PDFs. It should be available in the repositories of
@@ -42,7 +42,7 @@ This cuts the four sides of the document and puts two sides on one.
 If you want to print large documents two-sided, large margins will
 produce small text.
 
-=== pdfcrop
+=== Pdfcrop
 
 On Linux (Ubuntu) there is a nice command line tool called
 http://manpages.ubuntu.com/manpages/gutsy/man1/pdfcrop.1.html[pdfcrop].
@@ -59,7 +59,7 @@ pdfcrop --margins '5 10 20 30' input.pdf output.pdf
 Without the `--margins` flag, pdfcrop would produce zero margins, which
 might look awkward.
 
-=== pdfscissors
+=== Pdfscissors
 
 There is also a nice Java tool with a GUI:
 https://sites.google.com/site/pdfscissors/[pdfscissors]. It shows you
@@ -68,7 +68,7 @@ what to cut on all pages simultaneously.
 
 
 
-== PDFtk
+== Pdftk
 
 There is also the capable command-line tool called
 https://wiki.ubuntuusers.de/pdftk[pdftk].
