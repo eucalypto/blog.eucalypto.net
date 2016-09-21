@@ -2,7 +2,7 @@
 layout: post
 title: PDF-Tools
 date: '2013-04-14T19:14:32+0100'
-author: eucalypto
+description: "Useful tools for manipulating PDF documents, mostly for printing. Including PDFjam, pdfcrop, pdfscissors, and pdftk"
 tags:
 - pdf
 ---

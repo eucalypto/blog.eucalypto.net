@@ -1,6 +1,7 @@
 ---
 title: Git Tips
 date: '2015-04-27T02:36:00+0100'
+description: "Collection of useful Git tips; version control. Branch, commit, remote."
 comments: true
 tags:
 - git
