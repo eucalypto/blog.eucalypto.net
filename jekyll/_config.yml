@@ -8,13 +8,17 @@
 
 # Site settings
 title: Helpful Potato
+author: eucalypto
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a blog of my computer experience. It is meant to be a help for future-me and anyone with similar problems.
+  A blog of my computer experience. It is meant to be a help for future-me and anyone with similar problems.
 baseurl: "/helpful-potato" # the subpath of your site, e.g. /blog
 url: "http://eucalypto.github.io" # the base hostname & protocol for your site
 github_username:  eucalypto
 
+# If using a gemfile, you can add gems to a group called
+# ":jekyll_plugins". Gems from this group are apparently loaded by
+# Jekyll automatically. But you can use both options simultaneoulsly.
 gems:
   - jekyll-asciidoc
 
