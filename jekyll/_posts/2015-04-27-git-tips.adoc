@@ -16,7 +16,7 @@ tags:
 If you work with any kind of text files, a version control program is
 your best friend. And Git is probably the best.
 
-The easiest way to learn git is this https://try.github.io[tutorial].
+The easiest way to learn git ishttp://stackoverflow.com/questions/1783405/how-to-check-out-a-remote-git-branch this https://try.github.io[tutorial].
 All other git commands you will learn by googling for them when in need.
 
 If you want to share your code in an open source way,
@@ -85,14 +85,62 @@ git branch -u origin/branch-name
 to start tracking after a push.
 
 
+== Manage several remotes
+
+=== Checking out remote branches
+
+Having several remotes as backup may be a good idea. Let's say you want to check
+out a new (remote) branch. If you have several remotes, then doing
+
+[source, bash]
+----
+git fetch
+git checkout branchname
+----
+
+*doesn't* work. You need to do
+
+[source, bash]
+----
+git checkout -b branchname remote-name/branchname
+----
+
+according to
+http://stackoverflow.com/questions/1783405/how-to-check-out-a-remote-git-branch[stackoverflow].
+
+=== Push to several remotes
+
+Now that we have several remotes, we want to keep them up to date. But pushing
+each one separately is too much work!
+http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes[Stackoverflow]
+suggests to create a new remote and add extra push urls:
+
+[source, bash]
+----
+git remote add all git://repo1.url
+git remote set-url --add --push all git://repo2.url
+----
+
+Unfortunately the last command overwrites the original url for pushing; so we
+have to add it back with
+
+[source, bash]
+----
+git remote set-url --add --push all git://repo1.url
+----
+
+Now, we can use the remote `all` as the new remote repository that our branches
+track. `Push{nbsp}all` pushes to all repositories, but `pull` only fetches the
+first repository.
+
 
 == Recover lost files (discard changes)
 
-The more I use git the more I love it! One of the nicest features of git
-is that you can undo changes -- including deletion of files. I wanted to
-remove some files and accidentally typed: `rm something \*`, whereas I
-wanted `rm something*`. But of course bash didn't know that and merrily
-deleted everything in my directory (except a folder).
+The more I use git the more I love it! One of the nicest features of git is that
+you can undo changes -- including deletion of files. I wanted to remove some
+files and accidentally typed: `rm{nbsp}something{nbsp}\*`, whereas I wanted
+`rm{nbsp}something*`. But of course bash didn't know that and merrily deleted
+everything in my directory (except a folder).
 
 But as always, git
 http://stackoverflow.com/questions/52704/how-do-you-discard-unstaged-changes-in-git[saves
