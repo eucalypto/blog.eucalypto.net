@@ -24,6 +24,19 @@ https://github.com/[Github] is nowadays the top choice. They also
 helped with the tutorial above.
 
 
+== Work on several branches simultaneously
+
+In newer versions of git (2.5+), you can open a branch of your local repository
+into a separate path without cloning the repo. http://stackoverflow.com/questions/6270193/multiple-working-directories-with-git/30185564#30185564[Stackoverflow] knows more.
+
+  git worktree add path/to/separate/folder
+
+The only limitation is that you cannot check out the same branch twice. But now
+you can work on several branches without having to switch between them. And,
+since they all originate from one repository, you can push them with one
+command.
+
+
 == Compare all local branches with remote
 
 If you use more than one branch in git, you may want to keep them also
