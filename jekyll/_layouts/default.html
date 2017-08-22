@@ -2,14 +2,15 @@
 <html>
 
   {% include head.html %}
-
+  
 
   <body>
 
     {% include header.html %}
-
+    
     <div class="page-content">
       <div class="wrapper">
+          {% include google-search.html %}
         {{ content }}
       </div>
     </div>
