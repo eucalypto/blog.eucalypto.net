@@ -28,7 +28,7 @@ twitter_username: ViktorPapara
 github_username:  eucalypto
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
