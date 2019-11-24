@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Dropbox in CentOs 7 | Eucalypto’s Explorations</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Dropbox in CentOs 7" />
+<meta name="author" content="eucalypto" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Dropbox in CentOS 7" />
+<meta property="og:description" content="Install Dropbox in CentOS 7" />
+<link rel="canonical" href="https://blog.eucalypto.de/2016/03/15/dropbox-centos.html" />
+<meta property="og:url" content="https://blog.eucalypto.de/2016/03/15/dropbox-centos.html" />
+<meta property="og:site_name" content="Eucalypto’s Explorations" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-03-15T19:14:32+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Dropbox in CentOs 7","dateModified":"2016-03-15T19:14:32+01:00","datePublished":"2016-03-15T19:14:32+01:00","url":"https://blog.eucalypto.de/2016/03/15/dropbox-centos.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.eucalypto.de/2016/03/15/dropbox-centos.html"},"author":{"@type":"Person","name":"eucalypto"},"description":"Install Dropbox in CentOS 7","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://blog.eucalypto.de/feed.xml" title="Eucalypto's Explorations" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Eucalypto&#39;s Explorations</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Dropbox in CentOs 7</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2016-03-15T19:14:32+01:00" itemprop="datePublished">Mar 15, 2016
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">eucalypto</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="install-dropbox-in-centos-7">Install Dropbox in CentOS 7</h2>
+
+<p>This <a href="http://computechtips.com/790/install-dropbox-centos-7">website</a> has a nice overview over the installation process. First, you need to</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>yum <span class="nb">install </span>libgnome</code></pre></figure>
+
+<p>and then download the Dropbox Fedora (.rpm) package from <a href="https://www.dropbox.com/install?os=lnx">Dropbox</a> and install it with</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>rpm <span class="nt">-ivh</span> nautilus-dropbox[...].rpm</code></pre></figure>
+
+<p>Then you can start Dropbox and log in with your accound details.</p>
+
+<h2 id="repair-package-manager-yum">Repair package manager yum</h2>
+
+<p>If you use yum (e.g <code class="highlighter-rouge">yum update</code>) after Dropbox installation, you will
+probably encounter an error that a certain .xml file could not be found.
+This <a href="http://software-engineer.gatsbylee.com/dropbox-yum-update-error-on-centos/">blog entry</a> describes the problem:</p>
+
+<p>The Package is made for Fedora and Fedora has a different release cycle
+than CentOS. But the package repository configuration of Dropbox
+<code class="highlighter-rouge">/etc/yum.repos.d/dropbox.repo</code> uses the variable <code class="highlighter-rouge">$releasever</code>, which
+is different for Fedora and CentOS.</p>
+
+<p>To solve this problem you have to replace the line</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>baseurl=http://linux.dropbox.com/fedora/$releasever/
+</code></pre></div></div>
+
+<p>with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>baseurl=http://linux.dropbox.com/fedora/21/
+</code></pre></div></div>
+
+<p>The number <code class="highlighter-rouge">21</code> is just the newest Fedora version supported by Dropbox.
+Yo can look for the current supported versions on <a href="https://linux.dropbox.com/fedora/">their website</a>.</p>
+
+<h2 id="run-dropbox-as-a-service">Run Dropbox as a service</h2>
+
+<p>In order to have Dropbox available right after boot without loggin in,
+it has to be declared a service.</p>
+
+<p>[TODO] Find out how?</p>
+
+
+  </div><a class="u-url" href="/2016/03/15/dropbox-centos.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Eucalypto&#39;s Explorations</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Eucalypto&#39;s Explorations</li><li><a class="u-email" href="mailto:eucalyptov@gmail.com">eucalyptov@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/eucalypto"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">eucalypto</span></a></li><li><a href="https://www.twitter.com/ViktorPapara"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">ViktorPapara</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hi there, this is Viktor Papara and what you see is my professional blog.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
