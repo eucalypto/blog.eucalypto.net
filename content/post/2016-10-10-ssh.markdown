@@ -1,13 +1,12 @@
 ---
-layout: post
-title: SSH Tips
-date: '2016-10-10T20:19:32+0100'
-description: "Collection of useful SSH tips; remote command line."
 author: eucalypto
+date: "2016-10-10T20:19:32Z"
+description: Collection of useful SSH tips; remote command line.
 tags:
 - linux
 - ssh
 - command-line
+title: SSH Tips
 ---
 
 ## Run ssh-agent in remote login
@@ -15,10 +14,10 @@ tags:
 When you log into a machine with SSH and want to use a SSH key to do further
 stuff, like managing a remote git repository, you may have to
 
-{% highlight bash %}
+{{< highlight bash >}}
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/your_ssh_id
-{% endhighlight %}
+{{< / highlight >}}
 
 according to
 [this site]. Then the shell remembers your SSH key as long as it is open.

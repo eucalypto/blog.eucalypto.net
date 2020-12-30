@@ -1,11 +1,10 @@
 ---
-layout: post
-title: CentOS 7 Tips
-date: '2016-03-15T19:14:32+0100'
 author: eucalypto
+date: "2016-03-15T19:14:32Z"
 tags:
 - linux
 - centos
+title: CentOS 7 Tips
 ---
 
 ## Manage additional Repositories
@@ -41,18 +40,18 @@ is a light web server. In CentOS its package is in the
 [EPEL](https://wiki.centos.org/de/AdditionalResources/Repositories/)
 repository. After installing this package you can run it with bash:
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo systemctl start lighttpd.service
-{% endhighlight %}
+{{< / highlight >}}
 
 CentOS ships with a firewall. We have to
 [configure](http://dokuwiki.nausch.org/doku.php/centos:web_c7:apache_1) it
 so that our server is accessible from outside:
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo firewall-cmd --permanent --zone=public --add-service=http
 sudo firewall-cmd --permanent --zone=public --add-service=https
-{% endhighlight %}
+{{< / highlight >}}
 
 During the installation of Lighttpd, a new user is created: "lighttpd".
 This is the same as "www-data" for apache. To find out where the

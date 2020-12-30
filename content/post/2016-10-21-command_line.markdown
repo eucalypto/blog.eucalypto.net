@@ -1,13 +1,12 @@
 ---
-layout: post
-title: Command Line Goodies
-date: '2016-10-21T19:53+02:00'
-description: "Collection of useful command line tipps and tools."
 author: eucalypto
+date: "2016-10-21T00:00:00Z"
+description: Collection of useful command line tipps and tools.
 tags:
 - linux
 - ssh
 - command-line
+title: Command Line Goodies
 ---
 
 

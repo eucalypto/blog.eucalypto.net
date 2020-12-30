@@ -1,10 +1,10 @@
 ---
-layout: post
-title: PDF-Tools
-date: '2013-04-14T19:14:32+0100'
-description: "Useful tools for manipulating PDF documents, mostly for printing. Including PDFjam, pdfcrop, pdfscissors, and pdftk"
+date: "2013-04-14T19:14:32Z"
+description: Useful tools for manipulating PDF documents, mostly for printing. Including
+  PDFjam, pdfcrop, pdfscissors, and pdftk
 tags:
 - pdf
+title: PDF-Tools
 ---
 
 PDFs are a fine thing. But sometimes we want to edit them. Mostly for

@@ -1,12 +1,11 @@
 ---
-layout: post
-title: Bash Aliases
-date: '2016-03-11T18:44:10+0100'
 author: eucalypto
 comments: true
+date: "2016-03-11T18:44:10Z"
 tags:
 - linux
 - bash
+title: Bash Aliases
 ---
 
 
@@ -17,7 +16,7 @@ In ubuntu the `.bashrc` file has a command that looks for
 
 This is the code in the .bashrc file:
 
-{% highlight bash %}
+{{< highlight bash >}}
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -26,6 +25,6 @@ This is the code in the .bashrc file:
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
-{% endhighlight %}
+{{< / highlight >}}
 
 [.bash_aliases]: https://raw.githubusercontent.com/eucalypto/potato/master/helpful_potato/linux/bash/dot.bash_aliases

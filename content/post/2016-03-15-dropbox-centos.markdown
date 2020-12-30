@@ -1,27 +1,26 @@
 ---
-layout: post
-title: Dropbox in CentOs 7
-date: '2016-03-15T19:14:32+0100'
 author: eucalypto
+date: "2016-03-15T19:14:32Z"
 tags:
 - linux
 - centos
 - dropbox
+title: Dropbox in CentOs 7
 ---
 
 ## Install Dropbox in CentOS 7
 
 This [website] has a nice overview over the installation process. First, you need to
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo yum install libgnome
-{% endhighlight %}
+{{< / highlight >}}
 
 and then download the Dropbox Fedora (.rpm) package from [Dropbox] and install it with
 
-{% highlight bash %}
+{{< highlight bash >}}
 sudo rpm -ivh nautilus-dropbox[...].rpm
-{% endhighlight %}
+{{< / highlight >}}
 
 
 Then you can start Dropbox and log in with your accound details.

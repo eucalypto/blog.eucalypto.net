@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "So, I've started the 100 days of code challenge with PyBites"
-date:   2019-11-20 12:00 +0200
+date: "2019-11-20T00:00:00Z"
 tags:
 - python3
+title: So, I've started the 100 days of code challenge with PyBites
 ---
 
 So, I've started the 100 days of code challenge with PyBites. I really enjoy doing PyBites and this challenge is a nice push towards doing it regularly.
