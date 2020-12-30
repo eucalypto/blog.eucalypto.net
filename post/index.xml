@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Eucalypto&#39;s Explorations</title>
+    <link>https://blog.eucalypto.de/post/</link>
+    <description>Recent content in Posts on Eucalypto&#39;s Explorations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
+    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So, I&#39;ve started the 100 days of code challenge with PyBites</title>
+      <link>https://blog.eucalypto.de/post/2019-11-20-100-days-of-code-pybites/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2019-11-20-100-days-of-code-pybites/</guid>
+      <description>So, I&amp;rsquo;ve started the 100 days of code challenge with PyBites. I really enjoy doing PyBites and this challenge is a nice push towards doing it regularly.
+You can see my progress here: https://codechalleng.es/100days/eucalypto/4862
+Right now I&amp;rsquo;m at day 27. Which is quite impressive for me but if you are reading this in the future, you can see if I managed to keep up until the 100 days!
+This is also a good reason to use Twitter!</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Jekyll! -- Again!</title>
+      <link>https://blog.eucalypto.de/post/2019-09-27-welcome-to-jekyll/</link>
+      <pubDate>Fri, 27 Sep 2019 19:15:44 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2019-09-27-welcome-to-jekyll/</guid>
+      <description>Over the last several years I&amp;rsquo;ve not updated my blog because I starded using Dynalist. Its capable list creation and navigation made it feel natural to organize my thoughts and knowledge in a deep tree structure. This blog overlaps with this use-case because I started it to take notes for my future self.
+Now I&amp;rsquo;m re-activating this blog to show the world what I&amp;rsquo;m up to. To give back at least some knowledge and insight that I gained by reading the wonderful blogs and tutorials of today.</description>
+    </item>
+    
+    <item>
+      <title>Command Line Goodies</title>
+      <link>https://blog.eucalypto.de/post/2016-10-21-command_line/</link>
+      <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-10-21-command_line/</guid>
+      <description>Watch Logfiles Watch a text file as it grows:
+tail -f logfile.txt  Print out iso date format date --iso-8601=minutes  produces for example 2016-10-21T19:53+02:00</description>
+    </item>
+    
+    <item>
+      <title>SSH Tips</title>
+      <link>https://blog.eucalypto.de/post/2016-10-10-ssh/</link>
+      <pubDate>Mon, 10 Oct 2016 20:19:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-10-10-ssh/</guid>
+      <description>Run ssh-agent in remote login When you log into a machine with SSH and want to use a SSH key to do further stuff, like managing a remote git repository, you may have to
+eval $(ssh-agent -s) ssh-add ~/.ssh/your_ssh_id according to this site. Then the shell remembers your SSH key as long as it is open.</description>
+    </item>
+    
+    <item>
+      <title>CentOS 7 Tips</title>
+      <link>https://blog.eucalypto.de/post/2016-03-15-centos/</link>
+      <pubDate>Tue, 15 Mar 2016 19:14:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-03-15-centos/</guid>
+      <description>Manage additional Repositories For CentOS 7 there exist additional repositories; for additional codecs for example. This website lists the most useful ones. I use the Nux-Dextop repository but I don&amp;rsquo;t want to have it turned on the whole time.
+So I use
+sudo yum-config-manager --enable nux-dextop  to enable this repo. And when I&amp;rsquo;m done installing or updating with yum, I use
+sudo yum-config-manager --disable nux-dextop  to disable this repo again.</description>
+    </item>
+    
+    <item>
+      <title>Dropbox in CentOs 7</title>
+      <link>https://blog.eucalypto.de/post/2016-03-15-dropbox-centos/</link>
+      <pubDate>Tue, 15 Mar 2016 19:14:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-03-15-dropbox-centos/</guid>
+      <description>Install Dropbox in CentOS 7 This website has a nice overview over the installation process. First, you need to
+sudo yum install libgnome and then download the Dropbox Fedora (.rpm) package from Dropbox and install it with
+sudo rpm -ivh nautilus-dropbox[...].rpm Then you can start Dropbox and log in with your accound details.
+Repair package manager yum If you use yum (e.g yum update) after Dropbox installation, you will probably encounter an error that a certain .</description>
+    </item>
+    
+    <item>
+      <title>Bash Aliases</title>
+      <link>https://blog.eucalypto.de/post/2016-03-11-bashrc-aliases/</link>
+      <pubDate>Fri, 11 Mar 2016 18:44:10 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-03-11-bashrc-aliases/</guid>
+      <description>Aliases for command line in .bashrc In ubuntu the .bashrc file has a command that looks for ~/.bash_aliases and includes it. Here you find my .bash_aliases file with useful aliases.
+This is the code in the .bashrc file:
+# Alias definitions. # You may want to put all your additions into a separate file like # ~/.bash_aliases, instead of adding them here directly. # See /usr/share/doc/bash-doc/examples in the bash-doc package. if [ -f ~/.</description>
+    </item>
+    
+    <item>
+      <title>Git Tips</title>
+      <link>https://blog.eucalypto.de/post/2015-04-27-git-tips/</link>
+      <pubDate>Mon, 27 Apr 2015 02:36:00 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2015-04-27-git-tips/</guid>
+      <description>If you work with any kind of text files, a version control program is your best friend. And Git is probably the best.
+The easiest way to learn git is tutorial. All other git commands you will learn by googling for them when in need.
+If you want to share your code in an open source way, Github is nowadays the top choice. They also helped with the tutorial above.</description>
+    </item>
+    
+    <item>
+      <title>PDF-Tools</title>
+      <link>https://blog.eucalypto.de/post/2013-04-14-pdf-tools/</link>
+      <pubDate>Sun, 14 Apr 2013 19:14:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2013-04-14-pdf-tools/</guid>
+      <description>PDFs are a fine thing. But sometimes we want to edit them. Mostly for printing.
+Pdfjam This command-line tool named pdfjam uses latex to edit PDFs. It should be available in the repositories of most Linux distros. There are also useful examples.
+You can offset pages of a (twosided) document in order to make room for a binding, etc.:
+pdfjam --twoside myfile.pdf --offset &#39;1cm 0cm&#39; --suffix &#39;offset&#39;  This doesn&amp;rsquo;t scale, it just shifts the content.</description>
+    </item>
+    
+  </channel>
+</rss>

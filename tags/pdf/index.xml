@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdf on Eucalypto&#39;s Explorations</title>
+    <link>https://blog.eucalypto.de/tags/pdf/</link>
+    <description>Recent content in pdf on Eucalypto&#39;s Explorations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
+    <lastBuildDate>Sun, 14 Apr 2013 19:14:32 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PDF-Tools</title>
+      <link>https://blog.eucalypto.de/post/2013-04-14-pdf-tools/</link>
+      <pubDate>Sun, 14 Apr 2013 19:14:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2013-04-14-pdf-tools/</guid>
+      <description>PDFs are a fine thing. But sometimes we want to edit them. Mostly for printing.
+Pdfjam This command-line tool named pdfjam uses latex to edit PDFs. It should be available in the repositories of most Linux distros. There are also useful examples.
+You can offset pages of a (twosided) document in order to make room for a binding, etc.:
+pdfjam --twoside myfile.pdf --offset &#39;1cm 0cm&#39; --suffix &#39;offset&#39;  This doesn&amp;rsquo;t scale, it just shifts the content.</description>
+    </item>
+    
+  </channel>
+</rss>

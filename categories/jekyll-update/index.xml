@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll update on Eucalypto&#39;s Explorations</title>
+    <link>https://blog.eucalypto.de/categories/jekyll-update/</link>
+    <description>Recent content in jekyll update on Eucalypto&#39;s Explorations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
+    <lastBuildDate>Fri, 27 Sep 2019 19:15:44 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/categories/jekyll-update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Jekyll! -- Again!</title>
+      <link>https://blog.eucalypto.de/post/2019-09-27-welcome-to-jekyll/</link>
+      <pubDate>Fri, 27 Sep 2019 19:15:44 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2019-09-27-welcome-to-jekyll/</guid>
+      <description>Over the last several years I&amp;rsquo;ve not updated my blog because I starded using Dynalist. Its capable list creation and navigation made it feel natural to organize my thoughts and knowledge in a deep tree structure. This blog overlaps with this use-case because I started it to take notes for my future self.
+Now I&amp;rsquo;m re-activating this blog to show the world what I&amp;rsquo;m up to. To give back at least some knowledge and insight that I gained by reading the wonderful blogs and tutorials of today.</description>
+    </item>
+    
+  </channel>
+</rss>

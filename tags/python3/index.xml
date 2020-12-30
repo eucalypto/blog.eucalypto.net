@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python3 on Eucalypto&#39;s Explorations</title>
+    <link>https://blog.eucalypto.de/tags/python3/</link>
+    <description>Recent content in python3 on Eucalypto&#39;s Explorations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
+    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/tags/python3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So, I&#39;ve started the 100 days of code challenge with PyBites</title>
+      <link>https://blog.eucalypto.de/post/2019-11-20-100-days-of-code-pybites/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2019-11-20-100-days-of-code-pybites/</guid>
+      <description>So, I&amp;rsquo;ve started the 100 days of code challenge with PyBites. I really enjoy doing PyBites and this challenge is a nice push towards doing it regularly.
+You can see my progress here: https://codechalleng.es/100days/eucalypto/4862
+Right now I&amp;rsquo;m at day 27. Which is quite impressive for me but if you are reading this in the future, you can see if I managed to keep up until the 100 days!
+This is also a good reason to use Twitter!</description>
+    </item>
+    
+  </channel>
+</rss>

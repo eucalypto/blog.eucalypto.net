@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dropbox on Eucalypto&#39;s Explorations</title>
+    <link>https://blog.eucalypto.de/tags/dropbox/</link>
+    <description>Recent content in dropbox on Eucalypto&#39;s Explorations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
+    <lastBuildDate>Tue, 15 Mar 2016 19:14:32 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/tags/dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropbox in CentOs 7</title>
+      <link>https://blog.eucalypto.de/post/2016-03-15-dropbox-centos/</link>
+      <pubDate>Tue, 15 Mar 2016 19:14:32 +0000</pubDate>
+      <author>mail@eucalypto.de (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.de/post/2016-03-15-dropbox-centos/</guid>
+      <description>Install Dropbox in CentOS 7 This website has a nice overview over the installation process. First, you need to
+sudo yum install libgnome and then download the Dropbox Fedora (.rpm) package from Dropbox and install it with
+sudo rpm -ivh nautilus-dropbox[...].rpm Then you can start Dropbox and log in with your accound details.
+Repair package manager yum If you use yum (e.g yum update) after Dropbox installation, you will probably encounter an error that a certain .</description>
+    </item>
+    
+  </channel>
+</rss>
