@@ -1,4 +1,4 @@
-baseurl = "https://blog.eucalypto.de"
+baseurl = "https://blog.eucalypto.net"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Eucalypto's Explorations"
@@ -46,7 +46,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Viktor Papara"
-  email = "mail@eucalypto.de"
+  email = "mail@eucalypto.net"
   github = "eucalypto"
   twitter = "username"
   linkedin = "username"
