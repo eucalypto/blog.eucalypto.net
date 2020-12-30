@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bash on Eucalypto&#39;s Explorations</title>
-    <link>https://blog.eucalypto.de/tags/bash/</link>
+    <link>https://blog.eucalypto.net/tags/bash/</link>
     <description>Recent content in bash on Eucalypto&#39;s Explorations</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
-    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster>
-    <lastBuildDate>Fri, 11 Mar 2016 18:44:10 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.de/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mail@eucalypto.net (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.net (Viktor Papara)</webMaster>
+    <lastBuildDate>Fri, 11 Mar 2016 18:44:10 +0000</lastBuildDate><atom:link href="https://blog.eucalypto.net/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash Aliases</title>
-      <link>https://blog.eucalypto.de/post/2016-03-11-bashrc-aliases/</link>
+      <link>https://blog.eucalypto.net/post/2016-03-11-bashrc-aliases/</link>
       <pubDate>Fri, 11 Mar 2016 18:44:10 +0000</pubDate>
-      <author>mail@eucalypto.de (Viktor Papara)</author>
-      <guid>https://blog.eucalypto.de/post/2016-03-11-bashrc-aliases/</guid>
+      <author>mail@eucalypto.net (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.net/post/2016-03-11-bashrc-aliases/</guid>
       <description>Aliases for command line in .bashrc In ubuntu the .bashrc file has a command that looks for ~/.bash_aliases and includes it. Here you find my .bash_aliases file with useful aliases.
 This is the code in the .bashrc file:
 # Alias definitions. # You may want to put all your additions into a separate file like # ~/.bash_aliases, instead of adding them here directly. # See /usr/share/doc/bash-doc/examples in the bash-doc package. if [ -f ~/.</description>

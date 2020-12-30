@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Eucalypto&#39;s Explorations</title>
-    <link>https://blog.eucalypto.de/page/</link>
+    <link>https://blog.eucalypto.net/page/</link>
     <description>Recent content in Pages on Eucalypto&#39;s Explorations</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>mail@eucalypto.de (Viktor Papara)</managingEditor>
-    <webMaster>mail@eucalypto.de (Viktor Papara)</webMaster><atom:link href="https://blog.eucalypto.de/page/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mail@eucalypto.net (Viktor Papara)</managingEditor>
+    <webMaster>mail@eucalypto.net (Viktor Papara)</webMaster><atom:link href="https://blog.eucalypto.net/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is this site?</title>
-      <link>https://blog.eucalypto.de/page/about/</link>
+      <link>https://blog.eucalypto.net/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>mail@eucalypto.de (Viktor Papara)</author>
-      <guid>https://blog.eucalypto.de/page/about/</guid>
+      <author>mail@eucalypto.net (Viktor Papara)</author>
+      <guid>https://blog.eucalypto.net/page/about/</guid>
       <description>Hi there! You must be really curious to view this about page, I like that!
 So I&amp;rsquo;m Viktor Papara and write here about my experience with computers.
 Are you interested in my code? Than head over to my Github.

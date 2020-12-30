@@ -3,131 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.eucalypto.de/</loc>
+    <loc>https://blog.eucalypto.net/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/</loc>
+    <loc>https://blog.eucalypto.net/post/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/python3/</loc>
+    <loc>https://blog.eucalypto.net/tags/python3/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2019-11-20-100-days-of-code-pybites/</loc>
+    <loc>https://blog.eucalypto.net/post/2019-11-20-100-days-of-code-pybites/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/</loc>
+    <loc>https://blog.eucalypto.net/tags/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/categories/</loc>
+    <loc>https://blog.eucalypto.net/categories/</loc>
     <lastmod>2019-09-27T19:15:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/categories/jekyll-update/</loc>
+    <loc>https://blog.eucalypto.net/categories/jekyll-update/</loc>
     <lastmod>2019-09-27T19:15:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2019-09-27-welcome-to-jekyll/</loc>
+    <loc>https://blog.eucalypto.net/post/2019-09-27-welcome-to-jekyll/</loc>
     <lastmod>2019-09-27T19:15:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2016-10-21-command_line/</loc>
+    <loc>https://blog.eucalypto.net/post/2016-10-21-command_line/</loc>
     <lastmod>2016-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/command-line/</loc>
+    <loc>https://blog.eucalypto.net/tags/command-line/</loc>
     <lastmod>2016-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/linux/</loc>
+    <loc>https://blog.eucalypto.net/tags/linux/</loc>
     <lastmod>2016-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/ssh/</loc>
+    <loc>https://blog.eucalypto.net/tags/ssh/</loc>
     <lastmod>2016-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2016-10-10-ssh/</loc>
+    <loc>https://blog.eucalypto.net/post/2016-10-10-ssh/</loc>
     <lastmod>2016-10-10T20:19:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/centos/</loc>
+    <loc>https://blog.eucalypto.net/tags/centos/</loc>
     <lastmod>2016-03-15T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2016-03-15-centos/</loc>
+    <loc>https://blog.eucalypto.net/post/2016-03-15-centos/</loc>
     <lastmod>2016-03-15T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/dropbox/</loc>
+    <loc>https://blog.eucalypto.net/tags/dropbox/</loc>
     <lastmod>2016-03-15T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2016-03-15-dropbox-centos/</loc>
+    <loc>https://blog.eucalypto.net/post/2016-03-15-dropbox-centos/</loc>
     <lastmod>2016-03-15T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/bash/</loc>
+    <loc>https://blog.eucalypto.net/tags/bash/</loc>
     <lastmod>2016-03-11T18:44:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2016-03-11-bashrc-aliases/</loc>
+    <loc>https://blog.eucalypto.net/post/2016-03-11-bashrc-aliases/</loc>
     <lastmod>2016-03-11T18:44:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/code/</loc>
+    <loc>https://blog.eucalypto.net/tags/code/</loc>
     <lastmod>2015-04-27T02:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/git/</loc>
+    <loc>https://blog.eucalypto.net/tags/git/</loc>
     <lastmod>2015-04-27T02:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2015-04-27-git-tips/</loc>
+    <loc>https://blog.eucalypto.net/post/2015-04-27-git-tips/</loc>
     <lastmod>2015-04-27T02:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/tags/pdf/</loc>
+    <loc>https://blog.eucalypto.net/tags/pdf/</loc>
     <lastmod>2013-04-14T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/post/2013-04-14-pdf-tools/</loc>
+    <loc>https://blog.eucalypto.net/post/2013-04-14-pdf-tools/</loc>
     <lastmod>2013-04-14T19:14:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/page/</loc>
+    <loc>https://blog.eucalypto.net/page/</loc>
   </url>
   
   <url>
-    <loc>https://blog.eucalypto.de/page/about/</loc>
+    <loc>https://blog.eucalypto.net/page/about/</loc>
   </url>
   
 </urlset>
